@@ -142,10 +142,14 @@
 + (void)filterWithKVC {
     NSArray *personArray = [self randomPersonArray];
     
+    NSLog(@"%@",personArray);
+    
     NSInteger min = [[personArray valueForKeyPath:@"@min.age"] integerValue];
     NSInteger max = [[personArray valueForKeyPath:@"@max.age"] integerValue] ;
     NSInteger sum =[[personArray valueForKeyPath:@"@sum.age"] integerValue];
     double avg = [[personArray valueForKeyPath:@"@avg.age"] doubleValue] ;
+    
+    NSLog(@"------------");
     
     NSLog(@"age min = %@, max = %@, sum = %@, avg = %@",@(min), @(max), @(sum), @(avg));
 }
