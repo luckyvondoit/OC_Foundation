@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   
   spec.name         = "IFXFoundation"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of IFXFoundation."
+  spec.summary      = "usage of Foundation"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  summay of Foundtion
                    DESC
 
   spec.homepage     = "https://github.com/luckyvondoit/OC_Foundation.git"
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = {:type => 'BSD'}
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +53,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "luckyvon" => "justdoit@163.com" }
+  spec.author             = { "luckyvon" => "luckyvondoit@163.com" }
   # Or just: spec.author    = "luckyvon"
-  # spec.authors            = { "luckyvon" => "justdoit@163.com" }
+  # spec.authors            = { "luckyvon" => "luckyvondoit@163.com" }
   # spec.social_media_url   = "https://twitter.com/luckyvon"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
