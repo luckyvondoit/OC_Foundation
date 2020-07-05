@@ -3,7 +3,7 @@
 //  IFXFoundation
 //
 //  Created by luckyvon on 2020/6/15.
-//  DOC : https://github.com/luckyvondoit/OC_Document/blob/master/Concept/Foundation/Filter.md
+//  DOC : https://github.com/luckyvondoit/OC_Document/blob/master/Foundation/Filter.md
 //
 
 #import <Foundation/Foundation.h>
